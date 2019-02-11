@@ -3,7 +3,7 @@
 int main()
 {
 int a;
-if(n%=2)
+if(a%=2)
 {
 printf("Even number");
 }
