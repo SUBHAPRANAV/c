@@ -3,9 +3,9 @@ int main()
 {
 int n,i;
 scanf("%d",&n);
-for(i=o;i<n;i++)
+for(i=0;i<n;i++)
 {
-printf("%d Hello",n);
+printf("\n Hello",n);
 }
 return 0;
 }
