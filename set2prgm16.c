@@ -2,7 +2,6 @@
 int main()
 {
 int n,a,b,i,count;
-printf("enter the two limits");
 scanf("%d%d",&a,&b);
 for(i=a;i<b;i++)
 {
@@ -13,7 +12,7 @@ if(i%n==0)
 count++;
 }
 if(count==0)
-printf("%d\n",i);
+printf("%d\t",i);
 }
 	return 0;
 }
