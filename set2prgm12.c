@@ -2,7 +2,6 @@
 int main()
 {
 int n, reverse = 0, temp;
-printf("Enter a number to check if it is a palindrome or not\n");
 scanf("%d",&n);
 temp = n;
  while( temp != 0 )
