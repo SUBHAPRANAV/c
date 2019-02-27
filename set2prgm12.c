@@ -1,21 +1,21 @@
 # include<stdio.h>
-void main()
+int main()
 {
-int i;
-char a[50],b[50];
-scanf("%s",a);
-strcpy(b,a);p
-strrev(a);
-printf("%s",a);
-i=strcmp(a,b);
-prinbtf("%d",i);
-if(i==0)
-{
-printf("palindrome");
-}
-else
-{
-printf("Not palindrome");
-}
-return 0;
+int n, reverse = 0, temp;
+printf("Enter a number to check if it is a palindrome or not\n");
+scanf("%d",&n);
+temp = n;
+ while( temp != 0 )
+   {
+      reverse = reverse * 10;
+      reverse = reverse + temp%10;
+      temp = temp/10;
+   }
+
+   if ( n == reverse )
+      printf("%d palindrome", n);
+   else
+      printf("%d not a palindrome", n);
+
+   return 0;
 }
