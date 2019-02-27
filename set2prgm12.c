@@ -1,5 +1,6 @@
 # include<stdio.h>
-void main();
+void main()
+{
 int i;
 char a[50],b[50];
 scanf("%s",a);
