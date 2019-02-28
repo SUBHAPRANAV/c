@@ -2,10 +2,9 @@
 int main()
 {
 int num,v,result,digit;
-printf("enter the num value");
 scanf("%d",&num);
 v=num;
-while(v!=0);
+while(v!=0)
 {
 digit=v%10;
 result+=digit*digit*digit;
